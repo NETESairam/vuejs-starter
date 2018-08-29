@@ -28,22 +28,23 @@
                 </div>
             </div>
 
-            <android-svg class="android svg" />
-            <atom-svg />
+            <!-- <android-svg class="android svg" />
+            <atom-svg /> -->
+            <v-svg-atom />
         </div>
 	</div>
 </template>
 
 <script>
-import androidSvg from '@/svg/android.svg';
-import atomSvg from '@/svg/atom.svg';
+// import androidSvg from '@/svg/android.svg';
+// import atomSvg from '@/svg/atom.svg';
 
 export default {
     name: 'HelloWorld',
-    components: {
-        androidSvg,
-        atomSvg
-    },
+    // components: {
+    //     androidSvg,
+    //     atomSvg
+    // },
     props: {
         msg: String
     }

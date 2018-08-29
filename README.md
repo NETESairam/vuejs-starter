@@ -1,4 +1,4 @@
-# VueJS Starter
+# vuejs
 
 ## Project setup
 ```

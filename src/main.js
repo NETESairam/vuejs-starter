@@ -2,14 +2,13 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import '@/components/globals';
+import './js/bootstrap';
 
 // jquery
-const $ = require('jquery');
+// const $ = require('jquery');
 
-window.$ = $;
-
-// bootstrap
-import 'bootstrap';
+// window.$ = $;
 
 Vue.config.productionTip = false;
 

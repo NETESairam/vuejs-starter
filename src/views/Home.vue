@@ -2,6 +2,7 @@
 	<div class="home">
 		<img alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Welcome to Your Vue.js App" />
+        <v-button :customClass="'btn-secondary'" :customLabel="'Button Click'" @click="buttonClick()" />
 	</div>
 </template>
 
@@ -12,11 +13,17 @@ import HelloWorld from '@/components/HelloWorld.vue';
 export default {
     name: 'home',
     components: {
-        HelloWorld
+        HelloWorld,
     },
     mounted () {
-        console.log('test');
-        console.log($('.home'));
+        // console.log('test');
+        // console.log($('.home'));
     },
+    methods: {
+        buttonClick () {
+            console.log('test');
+
+        }
+    }
 };
 </script>
